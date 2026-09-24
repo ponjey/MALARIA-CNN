@@ -184,7 +184,7 @@ MALARIA-CNN/
 ├── README.md
 ├── .gitignore
 ├── code/
-│   └── Malaria.ipynb            # full pipeline: metadata parsing → split → train → evaluate
+│   └── Malaria_cnn.ipynb        # full pipeline: metadata parsing → split → train → evaluate
 ├── data-split/
 │   ├── train.csv                # 16,496 rows
 │   ├── validation.csv           # 4,605 rows
@@ -215,7 +215,7 @@ pandas, NumPy, scikit-learn (`StratifiedGroupKFold`), Matplotlib, Pillow.
 
 1. Download `cell_images.zip` from the NLM/NIH link above and place it in `dataset/`.
 2. Upload `ground-truth metadata/*.csv` alongside the notebook.
-3. Open `code/Malaria.ipynb` in Colab and run all cells in order.
+3. Open `code/Malaria_cnn.ipynb` in Colab and run all cells in order.
 4. The notebook writes `train/validation/test.csv`, saves `baseline_cnn_best.keras`,
    and emits `results_baseline_cnn.csv`.
 
