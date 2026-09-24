@@ -1,0 +1,15 @@
+# Dataset archive — 337 MB, exceeds GitHub's 100 MB per-file limit.
+# Obtain it from the NLM/NIH source (see README) and place it here:
+dataset/*.zip
+
+# Extracted images (created at runtime)
+dataset/cell_images/
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
